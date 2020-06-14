@@ -1,0 +1,59 @@
+Instalar o Eslinte Prettier e configurar o EditorConfig do VSCode
+-----------------------------------------------------------------
+
+//Padrão de sintaxe e sintaxe do ES6
+  npm i eslint babel-eslint prettier eslint-config-prettier eslint-plugin-prettier -D
+
+//Inicia a configuracao do ESlint no projeto
+  npx eslint --init
+  https://medium.com/cwi-software/eslint-prettier-a-dupla-perfeita-para-produtividade-e-padroniza%C3%A7%C3%A3o-de-c%C3%B3digo-6a7730cfa358
+
+//Bibliote de ícones
+  npm i react-icons
+
+//Style-Components (Reactjs/React-Native)
+//Estilização de components de css através do js.
+  //extensão para ter acesso hightlight do auto-complete
+  1 - Instalar a extensão do VSCode vscode-styled-components
+
+  //pacote do styled components
+  2 - npm i vscode-styled-components
+
+//Faz o roteamento das rotas da aplicação, quando o user clicar em alguma coisa
+//direciona para uma um endereço X ou Y
+  npm i react-router-dom
+
+//Redirecionar as páginas
+  npm i history
+
+//Prop-Types
+  npm i prop-types
+
+//React Toastify -> Comunicação de msg com o user.
+  npm i --save react-toastify
+
+//Axios -> para fazer requisições via https
+npm i axios
+
+//Redux - Configurar o estado global do app
+**********************CICLO DE VIDA**********************
+-> Estado Inicial: {
+  user_logado> false //Aqui já é sera global em todo app
+}
+
+-> para alterar o estado o user_logado
+  acao -> reducer -> newState = state -> newState
+
+npm i redux react-redux
+
+
+//REDUX SAGA -> Usado para fazer requisições asyncronas junto com o Redux Normal
+  Action (Request) -> saga -> reducer -> Retornar: sucess ou fail
+
+  npm i redux-saga
+
+//REDUX PERSIST -> Usado para salvar estados do app ou persistir os dados
+//(Ao inves de implementar na mao para salvar a sessao ou outra coisa no localStorage
+   vc usa esse camarada)
+
+npm i redux-persist
